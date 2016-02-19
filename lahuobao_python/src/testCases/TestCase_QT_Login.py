@@ -32,14 +32,26 @@ class testcases_login(unittest.TestCase):
         QT_Operations().login("lrong", "123456")
         #验证
         self.assertEqual(WebDriverHelp().get_text("id", "nowrap"), "lrong")
-        #退出
+         #退出
         QT_Operations().logout()
         #验证
         self.assertEqual(WebDriverHelp().get_text("xpath", "/html/body/div[1]/div[2]/div/div/ul/li[1]/a"),"登录")  
+    #def testlogout(self):
+         
         #assert WebDriverHelp().get_text("xpath", "/html/body/div[1]/div[2]/div/div/ul/li[1]/a")=="登录"
-        
+       
+       
 
 
 if __name__ == "__main__":
     #import sys;sys.argv = ['', 'Test.testName']
     unittest.main()
+    '''
+    #构造测试集
+    suite = unittest.TestSuite()
+    suite.addTest(testcases_login("testlogin"))
+    suite.addTest(testcases_login("testlogout"))
+    #执行测试
+    runner = unittest.TextTestRunner()
+    runner.run(suite)
+    '''

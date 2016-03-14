@@ -31,7 +31,7 @@ class QT_Operations():
         
         #目的地
         WebDriverHelp().click_item("id", "cargoTo")
-        WebDriverHelp().selectplace("id","110100", "110115")
+        WebDriverHelp().selectplace("xpath","//*[@value='深圳市']", "//*[@id='440308']")
         WebDriverHelp().input_value("id", "weight", weight)
         WebDriverHelp().input_value("id", "volume", volume)
         if atype == "一口价":
@@ -49,8 +49,9 @@ class QT_Operations():
             WebDriverHelp().clear_value("id", "referencePrice")
             WebDriverHelp().input_value("id", "referencePrice", price)
         
-        WebDriverHelp().pulldown_select("id", "sl-payment-method", "//select[@id='sl-payment-method']/option[@value='6']")
+        WebDriverHelp().pulldown_select("id", "sl-payment-method", "//select[@id='sl-payment-method']/option[@value='3']")
         
+        WebDriverHelp().click_item("id", "ckb_manager_service")
         WebDriverHelp().click_item("id", "ckb_tran_management")
         WebDriverHelp().click_item("id", "ckb_invoice")
         WebDriverHelp().click_item("id", "ckb_logistics_insure")

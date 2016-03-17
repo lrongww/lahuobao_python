@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testdata>
+	<login name="货主登录相关测试数据">
+		<username>lrong</username>
+		<password>123456</password>
+		<checkpoint1>nowrap</checkpoint1>
+		<value1>lrong</value1>
+	</login>	
+</testdata>
+

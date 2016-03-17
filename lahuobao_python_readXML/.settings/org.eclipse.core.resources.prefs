@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//src/commonFunction/DataOperations.py=utf-8
+encoding//src/commonFunction/QT_Operations.py=utf-8
+encoding//src/commonFunction/WebDriverHelp.py=utf-8
+encoding//src/testCases/TestCase_Driver_Offer.py=utf-8
+encoding//src/testCases/TestCase_QT_Login.py=utf-8
+encoding//src/testCases/TestCase_Release_Goods.py=utf-8
+encoding//src/testCases/TestSuite_All.py=utf-8

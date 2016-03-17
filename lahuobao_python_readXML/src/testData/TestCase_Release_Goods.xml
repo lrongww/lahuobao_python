@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testdata>
+	<login name="货主登录相关测试数据">
+		<username>lrong</username>
+		<password>123456</password>
+		<checkpoint1>nowrap</checkpoint1>
+		<value1>lrong</value1>
+	</login>
+	<release name = "货主发布一口价货源的相关测试数据">
+		<weight>60</weight>
+		<volume>600</volume>
+		<price>2</price>
+		<goodsvalue>80000</goodsvalue>
+	</release>
+	<release name = "货主发布参考价货源的相关测试数据">
+		<weight>70</weight>
+		<volume>700</volume>
+		<price>2.5</price>
+		<goodsvalue>70000</goodsvalue>
+	</release>
+	
+</testdata>
